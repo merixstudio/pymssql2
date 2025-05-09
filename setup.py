@@ -339,7 +339,7 @@ setup(
       "Operating System :: Unix",
     ],
     zip_safe = False,
-    setup_requires=['setuptools_scm[toml]>=5.0,<9.0', 'Cython>=3.0.7'],
+    setup_requires=['setuptools_scm[toml]>=5.0,<9.0', 'Cython>=3.0.10,<3.1.0'],
     tests_require=['psutil<5.9.9', 'pytest', 'pytest-timeout', 'pytest-subtests'],
     ext_modules = ext_modules(),
     packages = [ 'pymssql'],
